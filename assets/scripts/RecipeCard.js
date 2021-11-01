@@ -150,7 +150,6 @@ class RecipeCard extends HTMLElement {
     card.appendChild(div);
 
     value = searchForKey(data, "totalTime");
-    alert(value);
     const timeValue = convertTime(value);
     const time = document.createElement('time');
     const texts = document.createTextNode(timeValue);
