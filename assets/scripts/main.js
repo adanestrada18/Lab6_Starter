@@ -70,7 +70,7 @@ function createRecipeCards() {
   // Part 1 Expose - TODO
   /*
   let main = document.querySelector('main');
-  for(const i in recipes){
+  for(const i in recipes){ //messed up the less than 3 here
     let element = document.createElement('recipe-card');
     element.data = recipes[i];
     main.appendChild(element);
